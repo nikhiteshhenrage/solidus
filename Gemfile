@@ -71,6 +71,10 @@ group :utils do
   gem 'gem-release', require: false
 end
 
+gem 'solidus_multi_vendor'
+
+gem 'solidus_bootstrap_frontend', git: 'https://github.com/2beDigital/solidus_bootstraps_frontend.git', branch: 'master'
+
 gem 'rspec_junit_formatter', require: false, group: :ci
 
 # Documentation
